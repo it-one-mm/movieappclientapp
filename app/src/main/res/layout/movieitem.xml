@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:id="@+id/moviepanel"
+    android:layout_marginRight="20dp"
+    android:layout_width="@dimen/movieitemwidth"
+    android:layout_height="@dimen/movieitemheight"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/movieitemwidth"
+        android:layout_height="@dimen/movieitemheight"
+        app:cardCornerRadius="10dp">
+
+       <RelativeLayout
+           android:layout_width="@dimen/movieitemwidth"
+           android:layout_height="@dimen/movieitemheight">
+
+           <ImageView
+
+               android:id="@+id/movie_image"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:scaleType="fitXY"
+               android:src="@drawable/sampleimage">
+
+           </ImageView>
+
+           <TextView
+               android:background="@color/colorPrimaryDark"
+               android:textColor="@color/colorAccent"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Movie Name"
+               android:alpha="0.8"
+               android:layout_alignParentBottom="true"
+               android:id="@+id/movie_name"/>
+       </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

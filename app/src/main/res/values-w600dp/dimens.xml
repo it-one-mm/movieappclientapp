@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="movieitemwidth">200dp</dimen>
+    <dimen name="movieitemheight">300dp</dimen>
+</resources>

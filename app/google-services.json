@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "750087190939",
+    "firebase_url": "https://moviapp36.firebaseio.com",
+    "project_id": "moviapp36",
+    "storage_bucket": "moviapp36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750087190939:android:aee383beb8e9307bcb893e",
+        "android_client_info": {
+          "package_name": "com.itonemm.clientapp36"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750087190939-nj6f2t3lq1t3sv9acpbbbnupomuv3f2n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.clientapp36",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5g9Xzq5XxTmAGk6I0Mnua_sT4xjXjoGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750087190939:android:b7c99d0e9e6476c5cb893e",
+        "android_client_info": {
+          "package_name": "com.itonemm.movieappadminpanel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750087190939-kho7m5m0qjj8mv8khmknetmosj9cbjhr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.movieappadminpanel",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5g9Xzq5XxTmAGk6I0Mnua_sT4xjXjoGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750087190939:android:1469063931dc2196cb893e",
+        "android_client_info": {
+          "package_name": "com.itonemm.movieappclientapp36"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750087190939-a9o8k51bhphrmd3fgl0gs33003kbuben.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.movieappclientapp36",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5g9Xzq5XxTmAGk6I0Mnua_sT4xjXjoGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750087190939:android:2aec9042b4b36fd5cb893e",
+        "android_client_info": {
+          "package_name": "com.itonemm.movieclientapp36"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750087190939-smcv73g79qqtg667mvg1iq269q2a5s4d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itonemm.movieclientapp36",
+            "certificate_hash": "bc21fbdff00b72677bdece00b00c2e7be23ee5b4"
+          }
+        },
+        {
+          "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5g9Xzq5XxTmAGk6I0Mnua_sT4xjXjoGE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750087190939-ni6hf4j0uhtmi3apodsl71afm311e6d6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

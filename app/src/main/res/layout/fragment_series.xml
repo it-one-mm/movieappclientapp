@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeriesFragment"
+    android:background="@color/colorPrimaryDark">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/seriesloading"
+            android:layout_centerInParent="true"/>
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <TextView
+            android:id="@+id/txt_new_series"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="အသစ္ေရာက္ဇာတ္လမ္းတြဲမ်ား"
+            android:fontFamily="@font/zgf"
+            android:textColor="@color/colorAccent"/>
+        <androidx.recyclerview.widget.RecyclerView
+
+            android:layout_below="@id/txt_new_series"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/movieitemheight"
+            android:id="@+id/rc_new_series"/>
+        <TextView
+            android:layout_below="@id/rc_new_series"
+            android:id="@+id/txt_all_series"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ဇာတ္လမ္းတြဲမ်ားအားလံုး"
+            android:fontFamily="@font/zgf"
+            android:textColor="@color/colorAccent"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@id/txt_all_series"
+            android:visibility="gone"
+            android:layout_margin="20dp"
+            android:verticalSpacing="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rc_all_series"
+            android:numColumns="auto_fit"/>
+
+    </RelativeLayout>,,
+
+</FrameLayout>

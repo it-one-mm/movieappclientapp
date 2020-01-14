@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="24dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:elevation="24dp"
+        android:layout_margin="10dp"
+        android:layout_width="@dimen/movieitemwidth"
+        android:layout_height="@dimen/movieitemheight"
+        android:id="@+id/series_ep_image"
+        android:src="@drawable/sampleimage"/>
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:layout_margin="10dp"
+        android:id="@+id/SeriesName"
+
+        android:text="Series Name"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/movieitemheight"
+        android:layout_toRightOf="@id/series_ep_image"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:elevation="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/series_ep_image"
+        android:layout_margin="10dp"
+        android:id="@+id/series_ep_list"/>
+</RelativeLayout>
