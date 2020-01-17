@@ -146,7 +146,7 @@ public class MovieRecyclerAdapter extends RecyclerView.Adapter<MovieRecyclerAdap
             }
         });
 
-        holder.relativeLayout.setOnLongClickListener(new View.OnLongClickListener() {
+       /* holder.relativeLayout.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View v) {
                 PopupMenu pMenu=new PopupMenu(context,holder.movieImage);
@@ -154,7 +154,7 @@ public class MovieRecyclerAdapter extends RecyclerView.Adapter<MovieRecyclerAdap
                 pMenu.show();
                 return true;
             }
-        });
+        });*/
 
     }
 

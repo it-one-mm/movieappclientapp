@@ -115,4 +115,10 @@ public class VideoViewActivity extends AppCompatActivity {
         super.onBackPressed();
         player.stop();;
     }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        player.stop();
+    }
 }

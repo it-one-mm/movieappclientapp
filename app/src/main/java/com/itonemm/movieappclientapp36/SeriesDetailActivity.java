@@ -13,6 +13,7 @@ import com.bumptech.glide.Glide;
 
 public class SeriesDetailActivity extends AppCompatActivity {
     static SeriesModel seriesModel;
+    String id;
     static RecyclerView recyclerView;
     TextView seriesName;
     ImageView seriesImage;
